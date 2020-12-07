@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Naruto Uzumaki - Part 2 (Battle)/66_Asset_114.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 58, 75 )
+
+[node name="Naruto" type="KinematicBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="66_Asset_114" type="Sprite" parent="."]
+texture = ExtResource( 1 )
